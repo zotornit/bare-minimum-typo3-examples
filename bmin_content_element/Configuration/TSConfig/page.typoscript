@@ -1,0 +1,29 @@
+
+mod.wizards.newContentElement.wizardItems {
+    my_ce_category {
+        header = LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element_my_content_element.my_ce_category.title
+        show = *
+    }
+}
+
+
+mod.wizards.newContentElement.wizardItems {
+    # category common, menu, forms, plugins, special,        (my_ce_category)
+    my_ce_category {
+        elements {
+            bmin_content_element_my_content_element {
+                # content-marker is an existing icon, usually you want to register your own icon:
+                # https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/Icon/Index.html
+                iconIdentifier = content-media
+                #100
+                title = LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element_my_content_element.wizard.title
+                #110
+                description = LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element_my_content_element.wizard.description
+                tt_content_defValues {
+                    CType = bmin_content_element_my_content_element
+                }
+            }
+        }
+#        show := addToList(bmin_content_element_my_content_element)
+    }
+}

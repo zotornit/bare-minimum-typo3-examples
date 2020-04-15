@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2012-06-05T10:52:05Z" product-name="tx_websitekonzertgesellschaft">
+    <header/>
+    <body>
+      <trans-unit id="bmin_content_element_my_content_element.wizard.title">
+        <source>My Custom Content Element Title #100</source>
+      </trans-unit>
+
+      <trans-unit id="bmin_content_element_my_content_element.wizard.description">
+        <source>Description of My Custom Content Element #110</source>
+      </trans-unit>
+
+
+      <trans-unit id="bmin_content_element_my_content_element.type_dropdown.title">
+        <source>My Custom Content Element in after textmedia  #150</source>
+      </trans-unit>
+      <trans-unit id="bmin_content_element_my_content_element.type_dropdown.title2">
+        <source>My Custom Content Element in my my_ce_category #180</source>
+      </trans-unit>
+
+      <trans-unit id="bmin_content_element_my_content_element.type_dropdown.my_category">
+        <source>My Dropdown Category/Section #170</source>
+      </trans-unit>
+
+
+      <trans-unit id="bmin_content_element_my_content_element.my_ce_category.title">
+        <source>My Custom Category/Section #200</source>
+      </trans-unit>
+
+
+    </body>
+  </file>
+</xliff>

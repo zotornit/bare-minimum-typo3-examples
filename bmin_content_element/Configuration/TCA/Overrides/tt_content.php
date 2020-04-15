@@ -40,7 +40,7 @@ $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['bmin_content_element_
 /**\
  * Adds the content element to the "Type" dropdown, in our custom category
  */
-ExtensionManagementUtility::addTcaSelectItem(
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
     'tt_content',
     'CType',
     [

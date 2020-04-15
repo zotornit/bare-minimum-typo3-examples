@@ -20,11 +20,45 @@ lib.contentElement {
 
 
 tt_content {
-    bmin_content_element_lucky_number =< lib.contentElement
-    bmin_content_element_lucky_number {
+    // FLUIDTEMPLATE with cache
+#    bmin_content_element_lucky_number =< lib.contentElement
+#    bmin_content_element_lucky_number {
+#        templateName = LuckyNumber
+#        dataProcessing {
+#            1 = BMINCONTENTELEMENT\BminContentElement\DataProcessing\RandomNumberProcessor
+#        }
+#    }
+
+    // FLUIDTEMPLATE no cache
+    bmin_content_element_lucky_number = COA_INT
+    bmin_content_element_lucky_number.10 =< lib.contentElement
+    bmin_content_element_lucky_number.10 {
         templateName = LuckyNumber
         dataProcessing {
             1 = BMINCONTENTELEMENT\BminContentElement\DataProcessing\RandomNumberProcessor
         }
     }
+
+
+
+
+
+
+
+#    // USER FUNC no cache
+#    bmin_content_element_lucky_number = USER
+#    bmin_content_element_lucky_number {
+#        userFunc = BMINCONTENTELEMENT\BminContentElement\Utilities\RandomNumberTool->getRandomNumber
+#        stdWrap.wrap = Your lucky number with USER : # |
+#    }
+
+#    // USER FUNC with cache
+#    bmin_content_element_lucky_number = USER_INT
+#    bmin_content_element_lucky_number {
+#        userFunc = BMINCONTENTELEMENT\BminContentElement\Utilities\RandomNumberTool->getRandomNumber
+#        stdWrap.wrap = Your lucky number with USER_INT : # |
+#    }
+
+
+
 }

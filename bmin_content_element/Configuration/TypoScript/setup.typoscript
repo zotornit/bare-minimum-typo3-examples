@@ -20,8 +20,11 @@ lib.contentElement {
 
 
 tt_content {
-    bmin_content_element_my_content_element =< lib.contentElement
-    bmin_content_element_my_content_element {
-        templateName = MyContentElement
+    bmin_content_element_lucky_number =< lib.contentElement
+    bmin_content_element_lucky_number {
+        templateName = LuckyNumber
+        dataProcessing {
+            1 = BMINCONTENTELEMENT\BminContentElement\DataProcessing\RandomNumberProcessor
+        }
     }
 }

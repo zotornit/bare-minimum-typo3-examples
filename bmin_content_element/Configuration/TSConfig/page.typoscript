@@ -1,29 +1,29 @@
 
 mod.wizards.newContentElement.wizardItems {
-    my_ce_category {
-        header = LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element_my_content_element.my_ce_category.title
+    random_category {
+        header = LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element.ce_category.new_ce_wizzard.title
         show = *
     }
 }
 
 
 mod.wizards.newContentElement.wizardItems {
-    # category common, menu, forms, plugins, special,        (my_ce_category)
-    my_ce_category {
+    # category common, menu, forms, plugins, special,        (random_category)
+    random_category {
         elements {
-            bmin_content_element_my_content_element {
+            bmin_content_element_lucky_number {
                 # content-marker is an existing icon, usually you want to register your own icon:
                 # https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/Icon/Index.html
                 iconIdentifier = content-media
                 #100
-                title = LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element_my_content_element.wizard.title
+                title = LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element.ce_lucky_number.wizard.title
                 #110
-                description = LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element_my_content_element.wizard.description
+                description = LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element.ce_lucky_number.wizard.description
                 tt_content_defValues {
-                    CType = bmin_content_element_my_content_element
+                    CType = bmin_content_element_lucky_number
                 }
             }
         }
-#        show := addToList(bmin_content_element_my_content_element)
+#        show := addToList(bmin_content_element_lucky_number)
     }
 }

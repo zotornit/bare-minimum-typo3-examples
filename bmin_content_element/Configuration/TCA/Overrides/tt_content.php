@@ -4,7 +4,7 @@
 /**
  * Set CE page module typeicon
  */
-$GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['bmin_content_element_my_content_element'] = 'content-media';
+$GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['bmin_content_element_lucky_number'] = 'content-media';
 
 /**
  * Add a custom category to "New Element Wizzard"
@@ -13,7 +13,7 @@ $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['bmin_content_element_
     'tt_content',
     'CType',
     [
-        'LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element_my_content_element.type_dropdown.my_category',
+        'LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element.ce_category.type_dropdown.title',
         '--div--'
     ]
 );
@@ -29,8 +29,8 @@ $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['bmin_content_element_
     'CType',
     [
         #150
-        'LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element_my_content_element.type_dropdown.title',
-        'bmin_content_element_my_content_element',
+        'LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element.ce_lucky_number.type_dropdown.title',
+        'bmin_content_element_lucky_number',
         'content-media',
     ],
     'textmedia',
@@ -45,8 +45,8 @@ $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['bmin_content_element_
     'CType',
     [
         #180
-        'LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element_my_content_element.type_dropdown.title2',
-        'bmin_content_element_my_content_element',
+        'LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element.ce_lucky_number.type_dropdown.title2',
+        'bmin_content_element_lucky_number',
         'content-media',
     ],
     // empty will add to the end of last category item, which will be ours right now
@@ -58,7 +58,7 @@ $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['bmin_content_element_
 /**
  * Set the fields of our CE, this is default for text CE
  */
-$GLOBALS['TCA']['tt_content']['types']['bmin_content_element_my_content_element'] = [
+$GLOBALS['TCA']['tt_content']['types']['bmin_content_element_lucky_number'] = [
     'showitem' => '
         --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
             --palette--;;general,

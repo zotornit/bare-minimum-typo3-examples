@@ -23,10 +23,9 @@ $EM_CONF['bmin_content_element'] = array(
             'suggests' =>
                 array(),
         ),
-    'clearcacheonload' => true,
     'autoload' => [
         'psr-4' => [
-            'BMIN\\BminContentElement\\' => 'Classes'
+            'BMINCONTENTELEMENT\\BminContentElement\\' => 'Classes'
         ]
     ]
 );

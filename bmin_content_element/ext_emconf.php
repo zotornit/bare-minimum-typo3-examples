@@ -15,7 +15,7 @@ $EM_CONF['bmin_content_element'] = array(
         array(
             'depends' =>
                 array(
-                    'typo3' => '8.5.0-10.5.99',
+                    'typo3' => '8.7.0-10.5.99',
                     'php' => '7.2.0-7.4.99'
                 ),
             'conflicts' =>

@@ -1,7 +1,7 @@
 
 mod.wizards.newContentElement.wizardItems {
     random_category {
-        header = LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element.ce_category.new_ce_wizzard.title
+        header = LLL:EXT:bmin_content_element/Resources/Private/Language/Tca.xlf:bmin_content_element.ce_category.new_ce_wizard.title
         show = *
     }
 }

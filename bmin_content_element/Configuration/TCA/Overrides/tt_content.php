@@ -7,7 +7,7 @@
 $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['bmin_content_element_lucky_number'] = 'content-media';
 
 /**
- * Add a custom category to "New Element Wizzard"
+ * Add a custom category to "New Element Wizard"
  */
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
     'tt_content',

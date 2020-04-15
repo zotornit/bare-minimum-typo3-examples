@@ -2,7 +2,7 @@ page = PAGE
 page.10 = FLUIDTEMPLATE
 page.10 {
     templateRootPaths.200 = EXT:bmin_content_element/Resources/Private/Templates/
-    templateName = Default
+    templateName = PageTemplate
     variables >
     variables {
         content < styles.content.get
@@ -12,9 +12,9 @@ page.10 {
 
 # Register template paths before copy. This has advantages and disadvantages...
 lib.contentElement {
-    templateRootPaths.200 = EXT:bmin_content_element/Resources/Private/Templates/
-#    partialRootPaths.200 = EXT:bmin_content_element/Resources/Private/Partials/
-#    layoutRootPaths.200 = EXT:bmin_content_element/Resources/Private/Layout/
+    templateRootPaths.200 = EXT:bmin_content_element/Resources/Private/ContentElement/Templates/
+#    partialRootPaths.200 = EXT:bmin_content_element/Resources/Private/ContentElement/Partials/
+#    layoutRootPaths.200 = EXT:bmin_content_element/Resources/Private/ContentElement/Layout/
 }
 
 

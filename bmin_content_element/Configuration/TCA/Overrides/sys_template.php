@@ -1,6 +1,6 @@
 <?php
 
-// Add an entry in the static template list found in sys_templates for static TS
+// Add setup.typoscript as static template
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
     'bmin_content_element',
     'Configuration/TypoScript',

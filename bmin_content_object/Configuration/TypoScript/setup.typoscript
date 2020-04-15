@@ -1,0 +1,4 @@
+# Default PAGE object:
+page = PAGE
+page.10 = JAVA_SCRIPT
+page.10.value = alert('This works!');

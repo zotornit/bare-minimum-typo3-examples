@@ -15,7 +15,7 @@ $EM_CONF['bmin_contains_module_icon'] = array(
         array(
             'depends' =>
                 array(
-                    'typo3' => '8.7.0-10.5.99',
+                    'typo3' => '8.7.0-10.4.99',
                     'php' => '7.2.0-7.4.99'
                 ),
             'conflicts' =>
